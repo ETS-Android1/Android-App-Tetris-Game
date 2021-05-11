@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "468293519266",
+    "firebase_url": "https://tetris-game-royale.firebaseio.com",
+    "project_id": "tetris-game-royale",
+    "storage_bucket": "tetris-game-royale.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468293519266:android:c059b6d476b7a240",
+        "android_client_info": {
+          "package_name": "com.gtari.deltatechenologie.tetromino"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "468293519266-dhqosqjrt7aopegecmlusmipbdaf2vbs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gtari.deltatechenologie.tetromino",
+            "certificate_hash": "248b645c310a0826c3a2779a3fc6fcc13c3a8e64"
+          }
+        },
+        {
+          "client_id": "468293519266-caq4sj6g294ml9qqsotgl23od1b2n12h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAs1vDRtlxwmGMQlhrRcvE-mPmRdblj7_s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "468293519266-caq4sj6g294ml9qqsotgl23od1b2n12h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-4168864559615120~7655846864"
+    }
+  ],
+  "configuration_version": "1"
+}
