@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="74dp"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal"
+    android:background="@drawable/wooden_background_bannerb"
+    android:id="@+id/linearLayout3">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-4168864559615120/4134855519"
+        android:layout_marginTop="10dp">
+    </com.google.android.gms.ads.AdView>
+
+</LinearLayout>
+
+    <com.gtari.deltatechenologie.tetromino.GameSurface
+        android:id="@+id/my_gameSurface"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linearLayout3" />
+
+    <LinearLayout
+        android:id="@+id/idLayoutPauseMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:id="@+id/idMenu"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/wood_bt_menu"
+            android:onClick="buOptionMenu" />
+
+        <Space
+            android:id="@+id/idSpacePauseMenu"
+            android:layout_width="7dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/idPauseResume"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/wood_bt_pause"
+            android:onClick="buPauseStart" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/idLtStar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="75dp"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp">
+
+
+        <Button
+            android:id="@+id/idStar"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:background="@drawable/wood_bt_play"
+            android:onClick="buMagicHelp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/idRight"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/wood_bt_right"
+        android:onClick="buTranslateRight"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/idRoulette"
+        android:layout_toStartOf="@+id/idRoulette" />
+
+    <Button
+        android:id="@+id/idLeft"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/wood_bt_left"
+        android:onClick="buTranslateLeft"
+        android:layout_marginRight="30dp"
+        android:layout_alignTop="@+id/idRoulette"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/idRotate"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/wood_bt_rotate"
+        android:onClick="buRotate"
+        android:layout_marginLeft="12dp"
+        android:layout_above="@+id/idLeft"
+        android:layout_toRightOf="@+id/idSpeedUp"
+        android:layout_toEndOf="@+id/idSpeedUp" />
+
+    <Button
+        android:id="@+id/idRoulette"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/wood_bt_square"
+        android:onClick="buRoulette"
+        android:text=" 3"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:gravity="top|left"
+        android:layout_below="@+id/idSpeedUp"
+        android:layout_toLeftOf="@+id/idLeft"
+        android:layout_toStartOf="@+id/idLeft" />
+
+    <Button
+        android:id="@+id/idSpeedUp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/wood_bt_speed_up"
+        android:onClick="buSpeedUp"
+        android:layout_marginLeft="24dp"
+        android:layout_above="@+id/idRight"
+        android:layout_alignLeft="@+id/idRight"
+        android:layout_alignStart="@+id/idRight" />
+
+
+</RelativeLayout>
