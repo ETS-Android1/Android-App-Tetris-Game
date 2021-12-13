@@ -2,9 +2,6 @@
 (JAVA) Android Application Tetris Game
 
 
-# Android Application Recharger-Facilement
-(JAVA) Android Application Recharger Facilement
-
 [![](https://github.com/ELGTARI-Saif-Eddine/Android-App-Tetris-Game/blob/main/images/icon.png)](https://play.google.com/store/apps/details?id=com.gtari.deltatechenologie.rechargerfacilement)
 
 # Android Application: Reload Mobile Cards Automatically
@@ -26,6 +23,10 @@ I based on the new technologies of artificial intelligence to realize the applic
 ![](https://github.com/ELGTARI-Saif-Eddine/Android-App-Tetris-Game/blob/main/images/unnamed1.png)
 ![](https://github.com/ELGTARI-Saif-Eddine/Android-App-Tetris-Game/blob/main/images/unnamed2.png)
 ![](https://github.com/ELGTARI-Saif-Eddine/Android-App-Tetris-Game/blob/main/images/unnamed3.png)
+![](https://github.com/ELGTARI-Saif-Eddine/Android-App-Tetris-Game/blob/main/images/unnamed4.png)
+![](https://github.com/ELGTARI-Saif-Eddine/Android-App-Tetris-Game/blob/main/images/unnamed5.png)
+![](https://github.com/ELGTARI-Saif-Eddine/Android-App-Tetris-Game/blob/main/images/unnamed6.png)
+![](https://github.com/ELGTARI-Saif-Eddine/Android-App-Tetris-Game/blob/main/images/unnamed7.png)
 
 
 
