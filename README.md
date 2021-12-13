@@ -10,7 +10,7 @@
 
 ## Description:
 The famous tetris game. Completely with a new style.
-The game is developed under android studio. The graphic part with photoshop. 
+This game developed under android studio. The graphic part with photoshop. 
 
 
 ### _Play store link:_
